@@ -11,6 +11,7 @@
 ;; editor
 (global-hl-line-mode 1)
 (global-linum-mode 1)
+(column-number-mode 1)
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (set-language-environment "UTF-8")
