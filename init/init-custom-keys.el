@@ -7,12 +7,6 @@
 ;; calendar
 (global-set-key (kbd "<f2>") nil) ; <F2>
 (global-set-key (kbd "<f2>") 'calendar) ; <F2>
-;; save current buffer
-(global-set-key (kbd "C-s") nil) ; Ctrl+s
-(global-set-key (kbd "C-s") (lambda () (interactive) (save-buffer nil))) ; Ctrl+s
-;; write current buffer to file
-(global-set-key (kbd "C-S") nil) ; Ctrl+S
-(global-set-key (kbd "C-S") 'write-file) ; Ctrl+S
 ;; Meta+p
 (global-set-key (kbd "M-p") nil) ; Meta+p
 ;; new buffer
