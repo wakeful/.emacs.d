@@ -16,6 +16,10 @@
 ;; graham theme
 (init-custom-fn-ensure-install 'sublime-themes)
 (load-theme 'graham t)
+(custom-theme-set-faces
+ 'graham
+ `(region ((t (:background, "#2B2E30"))))
+)
 ;; magit
 (init-custom-fn-ensure-install 'magit)
 ;; zencoding mode
