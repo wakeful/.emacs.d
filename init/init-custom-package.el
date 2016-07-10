@@ -22,6 +22,9 @@
 )
 ;; magit
 (init-custom-fn-ensure-install 'magit)
+;; evil-magit
+(init-custom-fn-ensure-install 'evil-magit)
+(require 'evil-magit)
 ;; zencoding mode
 (init-custom-fn-ensure-install 'zencoding-mode)
 (require 'zencoding-mode)
